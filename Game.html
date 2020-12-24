@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Number Guessing Game!</title>
+  <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Freddie's Number Guessing Game!</h1>
+
+  <p>Please guess the number! This page has a random number between 1 and 100.
+  You have 10 truns or fewer to get the correct number. The page will let you
+  know if your guess was too high or too low.</p>
+
+  <div class="form">
+    <label for="guessField">Enter a guess:</label>
+    <input type="text" id="guessField" class="guessField">
+    <input type="submit" class="guessSubmit" value="Submit Guess">
+  </div>
+
+  <div class="gameResult">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+  </div>
+</body>
+<script src="/script.js"></script>
+</html>
